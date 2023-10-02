@@ -16,7 +16,7 @@ void PrintMin(const T& a, const T& b) {
 
 template<>
 void PrintMin<char>(const char& a, const char& b) {
-    std::cout << "”ŽšˆÈŠO‚Ío—Í‚Å‚«‚Ü‚¹‚ñB" << std::endl;
+    std::cout << "æ•°å­—ä»¥å¤–ã¯å‡ºåŠ›ã§ãã¾ã›ã‚“ã€‚" << std::endl;
 }
 
 
