@@ -14,7 +14,7 @@ int SalaryRecursiveFunc(int horus, int salary) {
     if (horus <= 1) {
         return salary;
     }
-    return SalaryRecursiveFunc(--horus, salary * 2 - 50);
+    return salary + SalaryRecursiveFunc(--horus, salary * 2 - 50);
 }
 
 int CalcSalaryRecursive(int hours) {
