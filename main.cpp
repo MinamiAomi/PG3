@@ -12,7 +12,7 @@ int main() {
         "Ueno",
         "Uguisudani",
         "Nippori",
-        /*"Nishinippori",*/
+        /*"Nishi-Nippori",*/
         "Tabata",
         "Komagome",
         "Sugamo",
@@ -51,7 +51,7 @@ int main() {
 
     // 日暮里の次に西日暮里を追加
     auto nipporiIterator = std::find(yamanoteLineStations.begin(), yamanoteLineStations.end(), "Nippori");
-    yamanoteLineStations.insert(nipporiIterator, "Nishinippori");
+    yamanoteLineStations.insert(nipporiIterator, "Nishi-Nippori");
 
     PrintYamanoteLineStations(2019);
 
