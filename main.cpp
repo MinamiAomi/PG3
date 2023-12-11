@@ -17,6 +17,7 @@ int main() {
     std::mt19937 randomGenerator(seedGenerator());
 
     int input = 0;
+
     // ダイスの結果を表示
     std::function PrintDice = [&]() {
         int dice = std::uniform_int_distribution<int>(1, 6)(randomGenerator);
