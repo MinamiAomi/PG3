@@ -49,15 +49,15 @@ int main() {
 
     PrintYamanoteLineStations(1970);
 
-    // 田端の前に西日暮里を追加
-    auto tabataIterator = std::find(yamanoteLineStations.begin(), yamanoteLineStations.end(), "Tabata");
-    yamanoteLineStations.insert(tabataIterator, "Nishi-Nippori");
+    // 日暮里の次に西日暮里を追加
+    auto nipporiIterator = std::find(yamanoteLineStations.begin(), yamanoteLineStations.end(), "Tabata");
+    yamanoteLineStations.insert(nipporiIterator, "Nishi-Nippori");
 
     PrintYamanoteLineStations(2019);
 
-    // 田町の前に高輪ゲートウェイを追加
-    auto tamachiIterator = std::find(yamanoteLineStations.begin(), yamanoteLineStations.end(), "Tamachi");
-    yamanoteLineStations.insert(tamachiIterator, "TakanawaGateway");
+    // 品川の次に高輪ゲートウェイを追加
+    auto shinagawaIterator = std::find(yamanoteLineStations.begin(), yamanoteLineStations.end(), "Tamachi");
+    yamanoteLineStations.insert(shinagawaIterator, "TakanawaGateway");
 
     PrintYamanoteLineStations(2022);
 
