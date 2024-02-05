@@ -56,7 +56,7 @@ int main() {
     PrintYamanoteLineStations(2019);
 
     // 品川の次に高輪ゲートウェイを追加
-    auto shinagawaIterator = std::find(yamanoteLineStations.begin(), yamanoteLineStations.end(), "Shinagawa");
+    auto shinagawaIterator = std::find(yamanoteLineStations.begin(), yamanoteLineStations.end(), "Tamachi");
     yamanoteLineStations.insert(shinagawaIterator, "TakanawaGateway");
 
     PrintYamanoteLineStations(2022);
