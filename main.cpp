@@ -50,7 +50,7 @@ int main() {
     PrintYamanoteLineStations(1970);
 
     // 日暮里の次に西日暮里を追加
-    auto nipporiIterator = std::find(yamanoteLineStations.begin(), yamanoteLineStations.end(), "Nippori");
+    auto nipporiIterator = std::find(yamanoteLineStations.begin(), yamanoteLineStations.end(), "Tabata");
     yamanoteLineStations.insert(nipporiIterator, "Nishi-Nippori");
 
     PrintYamanoteLineStations(2019);
